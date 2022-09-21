@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -13,5 +14,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Click Me"
+        app:layout_constraintTop_toBottomOf="@+id/textview"
+        app:layout_constraintStart_toStartOf="@id/textview"
+        app:layout_constraintEnd_toEndOf="@id/textview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
