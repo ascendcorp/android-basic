@@ -27,10 +27,10 @@ class MainFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val text = binding.edittext.text.toString()
-
         binding.button.setOnClickListener {
-            (requireActivity() as MainActivity).openSecondFragment(text)
+            (requireActivity() as MainActivity).openSecondFragment(
+                binding.edittext.text.toString()
+            )
         }
     }
 }
