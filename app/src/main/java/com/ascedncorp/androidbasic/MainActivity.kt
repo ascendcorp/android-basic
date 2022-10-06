@@ -20,11 +20,4 @@ class MainActivity: AppCompatActivity() {
                 .commit()
         }
     }
-
-    fun openSecondFragment(text: String) {
-        supportFragmentManager.beginTransaction()
-            .add(R.id.container, SecondFragment.newInstance(text))
-            .addToBackStack(null)
-            .commit()
-    }
 }

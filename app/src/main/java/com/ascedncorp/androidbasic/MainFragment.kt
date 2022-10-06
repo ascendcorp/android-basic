@@ -28,9 +28,10 @@ class MainFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.button.setOnClickListener {
-            (requireActivity() as MainActivity).openSecondFragment(
-                binding.edittext.text.toString()
-            )
+            requireActivity().supportFragmentManager.beginTransaction()
+                .add(R.id.container, SecondFragment.newInstance(binding.edittext.text.toString()))
+                .addToBackStack(null)
+                .commit()
         }
     }
 }
