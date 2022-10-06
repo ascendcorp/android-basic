@@ -14,8 +14,10 @@ class MainActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener {
-            startActivity(SecondActivity.newIntent(this, binding.edittext.text.toString()))
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.container, MainFragment.newInstance())
+                .commit()
         }
     }
 }
