@@ -14,11 +14,11 @@ Optional: Also prepare your Android device or Android Emulator for running the a
 - [Connect with an Android Device](https://developer.android.com/studio/debug/dev-options): If you have an Android Device
 
 ### Branch
-- [main](https://github.com/mikkipastel/android-basic): empty Android Application.
-- [activity-lifecycle](https://github.com/mikkipastel/android-basic/tree/activity-lifecycle): application for learning about Android Lifecycle.
-- [activity-workshop](https://github.com/mikkipastel/android-basic/tree/activity-workshop): workshop to learn for add activity.
-- [fragment-workshop](https://github.com/mikkipastel/android-basic/tree/fragment-workshop): workshop to learn to add fragments.
-- [recycler-workshop](https://github.com/mikkipastel/android-basic/tree/recycler-workshop): workshop to learn about RecyclerView and calling with API.
+- [main](https://github.com/mikkipastel/android-basic): An empty Android Application.
+- [activity-lifecycle](https://github.com/mikkipastel/android-basic/tree/activity-lifecycle): A small modification for learning Android Lifecycle.
+- [activity-workshop](https://github.com/mikkipastel/android-basic/tree/activity-workshop): A workshop for learning Activity & UI basics.
+- [fragment-workshop](https://github.com/mikkipastel/android-basic/tree/fragment-workshop): A workshop for learning Fragment basics.
+- [recycler-workshop](https://github.com/mikkipastel/android-basic/tree/recycler-workshop): A workshop for learning RecyclerView and networking.
 
 ## Content
-blog introduction: https://developers.ascendcorp.com/basic-android-development-introduction-with-android-project-fbf754bb4d3a
+Introduction blog: https://developers.ascendcorp.com/basic-android-development-introduction-with-android-project-fbf754bb4d3a
