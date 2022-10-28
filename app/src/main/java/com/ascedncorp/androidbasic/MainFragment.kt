@@ -47,6 +47,7 @@ class MainFragment: Fragment() {
                 putString(Constant.GLOBAL_INPUT_CACHE_KEY, binding.edittext.text?.toString() ?: "")
                 apply()
             }
+            // Open SecondFragment
             requireActivity().supportFragmentManager.beginTransaction()
                 .add(R.id.container, SecondFragment.newInstance(binding.edittext.text.toString()))
                 .addToBackStack(null)
