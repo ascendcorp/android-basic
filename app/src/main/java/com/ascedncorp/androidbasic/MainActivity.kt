@@ -20,4 +20,8 @@ class MainActivity: AppCompatActivity() {
                 .commit()
         }
     }
+
+    companion object {
+        const val INPUT_TEXT_KEY = "com.ascedncorp.androidbasic.MainActivity.input_text_key"
+    }
 }

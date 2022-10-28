@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">android-basic</string>
+    <string name="second_activity_text">Nothing saved</string>
+    <string name="main_activity_open_second_activity">Second Activity</string>
+    <string name="second_activity_preferences">Preferences: %s</string>
+    <string name="second_activity_sharedpreferences">SharedPreferences: %s</string>
 </resources>
