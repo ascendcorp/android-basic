@@ -24,7 +24,10 @@ class SecondActivity : AppCompatActivity() {
             preferencesInput
         )
         // The SharedPreferences will be shared to the whole application.
-        val sharedPreferencesInput = getSharedPreferences(BuildConfig.APPLICATION_ID, Context.MODE_PRIVATE).getString(
+        val sharedPreferencesInput = getSharedPreferences(
+            BuildConfig.APPLICATION_ID,
+            Context.MODE_PRIVATE
+        ).getString(
             Constant.GLOBAL_INPUT_CACHE_KEY,
             getString(R.string.second_activity_text)
         )
