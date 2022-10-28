@@ -44,7 +44,7 @@ class MainFragment: Fragment() {
                 apply()
             }
             sharedPreferences?.edit()?.apply {
-                putString(MainActivity.INPUT_TEXT_KEY, binding.edittext.text?.toString() ?: "")
+                putString(Constant.GLOBAL_INPUT_CACHE_KEY, binding.edittext.text?.toString() ?: "")
                 apply()
             }
             requireActivity().supportFragmentManager.beginTransaction()

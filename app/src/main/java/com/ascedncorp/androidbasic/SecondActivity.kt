@@ -25,7 +25,7 @@ class SecondActivity : AppCompatActivity() {
         )
         // The SharedPreferences will be shared to the whole application.
         val sharedPreferencesInput = getSharedPreferences(BuildConfig.APPLICATION_ID, Context.MODE_PRIVATE).getString(
-            MainActivity.INPUT_TEXT_KEY,
+            Constant.GLOBAL_INPUT_CACHE_KEY,
             getString(R.string.second_activity_text)
         )
         binding.tvSharedPreferences.text = String.format(
